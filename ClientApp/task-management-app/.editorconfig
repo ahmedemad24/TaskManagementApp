@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+﻿[*.cs]
+
+# Disable "class is never instantiated" (CA1812)
+dotnet_diagnostic.CA1812.severity = none
+
+# Disable "type can be sealed" (CA1852)
+dotnet_diagnostic.CA1852.severity = none
+
+dotnet_diagnostic.SA1633.severity = none
+dotnet_diagnostic.SA1200.severity = none
+dotnet_diagnostic.SA1413.severity = none
+dotnet_diagnostic.SA1516.severity = none
+
+# Disable these StyleCop rules
+dotnet_diagnostic.SA1402.severity = none
+dotnet_diagnostic.SA1508.severity = none
+dotnet_diagnostic.SA1503.severity = none
+
+# Disable Sonar rule (if SonarAnalyzer is installed)
+dotnet_diagnostic.S4457.severity = none
+
+# Documentation rules
+dotnet_diagnostic.SA1600.severity = none
+dotnet_diagnostic.SA1633.severity = none
+
+# Using directives ordering
+dotnet_diagnostic.SA1208.severity = none
+
+# Style and layout rules
+dotnet_diagnostic.SA1502.severity = none
+
+dotnet_analyzer_diagnostic.severity = none
+dotnet_diagnostic.CA1062.severity = none
+dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.CA1051.severity = none
+dotnet_diagnostic.CA9113.severity = none
+dotnet_diagnostic.CA1515.severity = none
+dotnet_diagnostic.CA1052.severity = none
+=======
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.ts]
+quote_type = single
+ij_typescript_use_double_quotes = false
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+>>>>>>> 1fc5c4f (initial commit)
