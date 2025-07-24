@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[*.cs]
 
 # Disable "class is never instantiated" (CA1812)
@@ -36,3 +37,22 @@ dotnet_diagnostic.CA1051.severity = none
 dotnet_diagnostic.CA9113.severity = none
 dotnet_diagnostic.CA1515.severity = none
 dotnet_diagnostic.CA1052.severity = none
+=======
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.ts]
+quote_type = single
+ij_typescript_use_double_quotes = false
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+>>>>>>> 1fc5c4f (initial commit)
